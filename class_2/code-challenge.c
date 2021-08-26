@@ -10,9 +10,15 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main(int argc, char )
+int main(int argc, char *argv[])
 
 {
-    FILE        *fpt;
-    int         
+    FILE            *fpt;
+    int             ROWS, COLS, MAX, i;
+    unsigned char   *image;
+    char            header[80];
 }
+
+fpt = fopen(argv[1], "rb");
+
+
