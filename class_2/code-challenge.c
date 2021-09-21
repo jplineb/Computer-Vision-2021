@@ -13,12 +13,13 @@
 int main(int argc, char *argv[])
 
 {
-    FILE            *fpt;
-    int             ROWS, COLS, MAX, i;
-    unsigned char   *image;
-    char            header[80];
+        FILE            *fpt;
+        int             ROWS, COLS, MAX, i;
+        unsigned char   *image;
+        char            header[80];
+
+    fpt = fopen(argv[1], "rb");
+
+    freadf(fpt);
+
 }
-
-fpt = fopen(argv[1], "rb");
-
-
